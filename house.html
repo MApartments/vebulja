@@ -5,9 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="shortcut icon" href="image/favicon.ico">
 	<link rel="stylesheet" href="custom.css">
    <title>Milic Apartments</title>
+   <META NAME="Description" CONTENT="Milic apartments are located in Makarska, Croatia . We offer 4 apartments for cheap prise on the market. House hosts are frendly and willing to help! ">
+<META NAME="Classification" CONTENT="Milic apartments are located in Makarska, Croatia . We offer 4 apartments for cheap prise on the market. House hosts are frendly and willing to help! Makarska with very beautiful beaches offers you many activities to do and relax such as scuba diving, swimming, mountain climbing and hitchhiking. ">
+<META HTTP-EQUIV="CACHE-CONTROL" CONTENT="PUBLIC">
+<META NAME="distribution" CONTENT="Global">
+
    <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
@@ -29,43 +36,60 @@
     </div>
     <ul class="nav navbar-nav">
       <li>
-	    <a href="index.html#top">
+	    <a href="#top">
 		  <span class="glyphicon glyphicon-home active"></span>
 		</a>
 	  </li>
-      <li><a class="right" href="#top">House</a></li>
-	<li><a href="#ha">House awards</a></li>
-	<li><a href="#hl">House location</a></li>
-	<li><a href="#hs">Services</a></li>
-	<li><a class="right" href="reservation.html">Reservation</a></li>
+      <li><a class="right" href="house.html">House</a></li>
+    <li><a href="#ap1">Apartment 1</a></li>
+	<li><a href="#ap2">Apartment 2</a></li>
+	<li><a href="#ap3">Apartment 3</a></li>
+	<li><a href="#ap4">Apartment 4</a></li>
+	<li><a class="" href="reservation.html"> Reservation</a></li>
 	<li><a class="center-right" href="events.html">Events</a></li>
     </ul>
   </div>
 </nav>
 
-<div id="myCarousel" class="carousel slide" data-ride="carousel">
+<div id="myCarousel1" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
-    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-    <li data-target="#myCarousel" data-slide-to="1"></li>
-    <li data-target="#myCarousel" data-slide-to="2"></li>
+    <li data-target="#myCarousel1" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel1" data-slide-to="1"></li>
+    <li data-target="#myCarousel1" data-slide-to="2"></li>
   </ol>
 
   <!-- Wrapper for slides -->
-<div class="carousel-inner" role="listbox">
+  <div class="carousel-inner" role="listbox">
     <div class="item active">
+	<div class="carousel-caption">
+      <p><img src="image/milogoSun.png" alt="Milic Apartments logo" style="background-color:rgba(255,255,255,0.3);height:90px;width:250px"/></p>
+      <p><span style="background-color:rgba(255,255,255,0.1)">Dont forget your discount code to get 5% off price!</span></p>
+      <p><a href="reservation.html" class="btn btn-info btn-lg" style="color:white"><strong>Book now!</strong></a></p>
+    </div>
       <img src="image/2.jpg" alt="Chania">
     </div>
 
-    <div class="item">
+<div class="item">
+	<div class="carousel-caption">
+      <p><img src="image/milogoSun.png" alt="Milic Apartments logo" style="background-color:rgba(255,255,255,0.3);;height:90px;width:250px"/></p>
+      <p><span style="background-color:rgba(255,255,255,0.1)">Dont forget your discount code to get 5% off price!</span></p>
+      <p><a href="reservation.html" class="btn btn-info btn-lg" style="color:white"><strong>Book now!</strong></a></p>
+    </div>
       <img src="image/1.jpg" alt="Chania">
-    </div>
-
-    <div class="item">
-      <img src="image/3.jpg" alt="Flower">
-    </div>
-</div> 
 </div>
+
+<div class="item">
+	<div class="carousel-caption">
+      <p><img src="image/milogoSun.png" alt="Milic Apartments logo" style="background-color:rgba(255,255,255,0.3);height:90px;width:250px"/></p>
+      <p><span style="background-color:rgba(255,255,255,0.1);color:#0059b3">Dont forget your discount code to get 5% off price!</span></p>
+      <p><a href="reservation.html" class="btn btn-info btn-lg" style="color:white"><strong>Book now!</strong></a></p>
+    </div>
+      <img src="image/3.jpg" alt="Flower">
+</div>
+   </div> 
+</div>
+<!--kraj headera -->
 <div class="panel panel-body caption">
 			<p><h3></h3></p>
 <div id="hp" class="panel panel-default">
@@ -204,12 +228,12 @@
 <div id="hl" class="well">
   <div class="panel-body">
 <div class="row">
-  <div class="col-xs-6 col-md-3">
+  <div class="col-xs-12 text-center">
         <h3>Google Map</h3>
 		<script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:340px;width:600px;'><div id='gmap_canvas' style='height:340px;width:600px;'></div><div><small><a href="http://embedgooglemaps.com">embed google maps</a></small></div><div><small><a href="http://phplinkdir.com/">add your link</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:10,center:new google.maps.LatLng(43.30528090000001,17.015172200000052),mapTypeId: google.maps.MapTypeId.HYBRID};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(43.30528090000001,17.015172200000052)});infowindow = new google.maps.InfoWindow({content:'<strong>Milic Apartments</strong><br>put pozara 12a<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
   </div>
-  <div class="col-xs-6 col-md-3">
-    <div class="col-md-offset-12 col-sm-offset-12 img-thumbnail">
+  <div class="col-xs-12 col-md-6 text-center">
+    <div class="img-thumbnail">
       <div class="caption">
         <h3>Google Map QR code</h3>
 		<p>Scan with QR code scaner on your mobile phone to get location of apartments Milic on google maps on your mobile phone</p>
@@ -217,45 +241,18 @@
       </div>
     </div>
   </div>
-</div>
-</div>
-</div>
-
-			<p><h3>Services</h3></p>
-<div id="hs" class="panel panel-default">
-  <div class="panel-heading"><img src="image/milogo2.png"></div>
-  <div class="panel-body">
-  <div class="row">
-<table id="tabla" class="table table-hover">
-    <thead>
-      <tr>
-        <th>Host</th>
-        <th>service</th>
-        <th><span class="glyphicon glyphicon-question-sign"></span></th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Taxi service</td>
-		<td>If you need taxi transport</td>
-        <td>Price: Negotiable</td>
-      </tr>
-      <tr>
-        <td>To Airport and from Airport</td>
-        <td>We can arrange taxi transport for you to our house</td>
-        <td>Price: Negotiable</td>
-      </tr>
-      <tr>
-        <td>On demand</td>
-        <td>If you need anything</td>
-        <td>Price: Negotiable</td>
-      </tr>
-    </tbody>
-  </table>
+<div class="col-xs-12 col-md-6 text-center">
+    <div class="img-thumbnail">
+      <div class="caption">
+        <h3>Video</h3>
+		<p>Video how to get to out apartments from entrance of Makarska</p>
+		<img src="image/locationQRcode.png">
+      </div>
     </div>
-  </div>
 </div>
-
+</div>
+</div>
+</div>
 
 <section class="footer">
     <div class="container">
@@ -268,7 +265,7 @@
                         <li><span class="glyphicon glyphicon-envelope"></span> app_milic@hotmail.com</li>
                         <li><span class="glyphicon glyphicon-phone"></span> +385 98 707 352</li>
                         <li><span class="glyphicon glyphicon-phone-alt"></span> +385 21 616 626</li>
-						<li><a href="house.html"><span class="glyphicon glyphicon-globe"></span> Makarska, Put Požara 12A</a></li>
+						<li><span class="glyphicon glyphicon-globe"></span> Makarska, Put Požara 12A</li>
                     </ul>
                 </div>
             </div>
